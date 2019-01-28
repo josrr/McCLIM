@@ -28,8 +28,7 @@
                  :width 500 :max-width 500 :min-width 500)
       canvas
       (labelling (:label "Radius")
-        slider))))
-  (:geometry :min-width *width* :width *width* :max-width *width*))
+        slider)))))
 
 (defun change-radius (pane value)
   (declare (ignore pane))
